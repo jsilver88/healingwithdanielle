@@ -10,7 +10,7 @@ html{
     --header2: calc(2.5rem + 1vw);
     --header3: calc(2rem + 1vw);
     --header4: calc(2.2em + 1vw);
-    --text: calc(.2rem + 1vw);
+    --text: calc(.8rem + 1vw);
 }
 
 body{
@@ -87,7 +87,7 @@ justify-content: flex-end;
 
 .home-hero img{
     width: 100%;
-    object-fit: cover;
+    height: 100%;
 }
 
 #home-about{
@@ -348,7 +348,7 @@ justify-content: flex-end;
 }
 
 .bi-heart-fill{
-    color: #9fcd4d;
+    color: #f90;
 }
 
 #footer p{
@@ -593,7 +593,7 @@ article{
 }
 
 .post-img-container img{
-    height: 50rem;
+    height: 100%;
     width: 100%;
     margin-bottom: 3rem;
 }

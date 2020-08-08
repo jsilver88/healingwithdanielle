@@ -28,9 +28,9 @@ $(document).ready(function () {
     // AOS Instance
     AOS.init();
 
-    // // Bootstrap Carousel
+    // Bootstrap Carousel
     // $('.carousel').carousel({
-    //     interval: 2000
+    //     interval: 1000
     // })
 })
 
