@@ -85,9 +85,9 @@ justify-content: flex-end;
     background: #f9f9f9;
 }
 
-.home-hero img{
-    width: 100%;
-    height: 100%;
+.home .home-hero img{
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #home-about{
@@ -239,6 +239,13 @@ justify-content: flex-end;
     color: #fff;
     padding: 15px;
     font-size: 80%;
+}
+
+.sticky-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
 }
 
 .home #home-blog{
@@ -712,6 +719,13 @@ article{
 @media only screen and (max-width: 750px){
     main .site-content{
         width: 100%;
+    }
+    .home #home-blog .home-blog_wrapper .home-blog_post-link{
+        width: 100%;
+    }
+    .home-about_photo img{
+        width: 90%;
+        height: 90%;
     }
 }
 
