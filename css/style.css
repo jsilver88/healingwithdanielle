@@ -54,6 +54,10 @@ hr{
     border-color: #f90;
 }
 
+main{
+    margin-top: 10rem;
+}
+
 .navbar-nav,
 .mr-auto {
 flex: 1;
@@ -71,6 +75,11 @@ justify-content: flex-end;
     z-index: 10;
     background: #fff;
     transition: .2s;
+}
+
+.logo-img{
+    width: 40rem;
+    height: 100%;
 }
 
 /* Main */
@@ -734,12 +743,38 @@ article{
         height: 125vh;
     }
 
+   element{
+       margin-top: 8rem;
+   }
+
     .site-content .post-content > .post-image .post-info{
         display: none;
     }
 
     nav .toggle-collapse{
         width: 80% !important;
+    }
+
+    .logo-img{
+        width: 25rem;
+    }
+
+    .home-links_box.home-links_box-large{
+        width: 100%;
+        height: 90%;
+    }
+
+    .home #home-blog .home-blog_wrapper .home-blog_post-link:first-child .home-blog_post .home-blog_post-content{
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+    .home #home-blog .home-blog_wrapper .home-blog_post-link:first-child .home-blog_post{
+        display: inherit;
+    }
+    .home #home-blog .home-blog_wrapper .home-blog_post-link:first-child .home-blog_post .home-blog_post-image{
+        width: 100%;
+        height: 200px;
     }
     
 }
