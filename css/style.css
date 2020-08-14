@@ -572,6 +572,11 @@ main .post-content .post-title a{
     margin: 1rem 0;
 }
 
+.social-btn{
+   display: block;
+   text-align: center;
+}
+
 /*------------ About Me ---------------*/
 .quote{
     padding: 30px;
