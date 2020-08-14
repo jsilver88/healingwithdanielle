@@ -10,11 +10,11 @@ html{
     --header2: calc(2.5rem + 1vw);
     --header3: calc(2rem + 1vw);
     --header4: calc(2.2em + 1vw);
-    --text: calc(.8rem + 1vw);
+    --text: calc(.4rem + 1vw);
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.4;
     color: #555;
     animation: 1s fadeIn;
@@ -47,7 +47,7 @@ a{
 
 a:hover{
     text-decoration: none;
-    color: #f90;
+    color: #fff;
 }
 
 hr{
@@ -64,6 +64,10 @@ flex: 1;
 margin: auto !important;
 display: flex;
 justify-content: flex-end;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid #f90;
 }
 
 .header{
@@ -159,7 +163,7 @@ justify-content: flex-end;
 
 .button:hover{
     text-decoration: none;
-    color: black;
+    background-color: black;
 }
 
 .section{
@@ -626,6 +630,10 @@ article{
 
 .email{
     font-size: 1.8rem;
+}
+
+.email:hover{
+    color: #9fcd4d;
 }
 
 #contact-form{
